@@ -5,6 +5,7 @@ import { Mission } from "@/components/Mission";
 import Testimonials from "@/components/Testimonials";
 import { FaLocationArrow } from "react-icons/fa";
 import Sponsors from "@/components/Sponsors";
+import { Pillars } from "@/components/Pillars";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <MagicButton title="Join Our Community" icon={<FaLocationArrow />} position="right" />
         </a>
         <Sponsors />
+        <Pillars />
         <Mission />
         <Testimonials />
       </main>

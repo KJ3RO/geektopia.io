@@ -22,7 +22,7 @@ function Navbar({ className }: { className?: string }) {
         <a href="/">Home</a>
         <a href="/research">Research</a>
         <a href="/products">Products</a>
-        <a href="/research">Hackathons</a>
+        <a href="/hackathons">Hackathons</a>
         {/* <MenuItem setActive={setActive} active={active} item="Products">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/products#api">Auto-Tagging API</HoveredLink>
